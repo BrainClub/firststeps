@@ -9,14 +9,13 @@ body {
 .line{
     height: 200px;
 }
-.menu{
+.menutop{
     height: 300px;
     background: #37a14c;
 }
 
 .content{
     width: 980px;
-    padding: 16px 0;
     font-size: 18px;
     text-align: center;
     margin: 0px auto;
@@ -39,4 +38,31 @@ text-decoration: none;
 ul li {
     display: inline;
 }
+.fon{
+    background: #37a14c;
+}
+.full-width{
+    width: 100%; /* Ширина основного блока меню */
+    position: relative;
+    display: table;
+}
+.full-width li {
+    display: table-cell;
+    position: relative;
+}
+.full-width li a {
+    text-decoration: none;
+    border-left: 1px solid;
+    display: block;
+    position: relative;
+    text-align:center;
+    background: #37a14c;
+    line-height: 50px; /* Приравниваем к высоте, чтобы выровнять текст по вертикали */
+}
+.full-width li a:hover{
+    background: #00a126;
+}
+
+
+
 

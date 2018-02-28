@@ -11,6 +11,7 @@ body {
 .button img{
     margin: 10px;
     display: list-item;
+
 }
 .button {
 display: inline-block;
@@ -30,17 +31,21 @@ display: inline-block;
 }
 
 .menu1left{
+    margin: 10px;
     float: right;
     text-decoration: none;
 }
-.menu1left1 li {  display: inline; }
+.menu1left1 li {
+    display: inline-block;
+margin: 0px;}
 
 .menu1left a
 {
 text-decoration: none;
 }
 .menu2left{
-    font-family: "ArialBold";
+    color: white;
+    font-family: "ArialRegular";
     float: left;
     text-decoration: none;
 }
@@ -87,7 +92,7 @@ content: '';
     border-right: 1px solid #57e974;
     text-align: center;
     display: block;
-    color: #000;
+    color: white;
     padding: 12px 16px;
     text-decoration: none;
 }
@@ -124,6 +129,7 @@ content: '';
     height: 0;
 }
 .menucenter{
+    font-family: "ArialRegular";
     padding-top: 25px;
     text-align: left;
     float: left;
@@ -148,6 +154,12 @@ content: '';
 .contentcenter img{
     width: 100%;
 }
+.contentcenter h2{
+    font-family: "ArialBold";
+}
+.contentcenter p{
+
+}
 
 .promoBlocks ul{
     margin: 0;
@@ -155,24 +167,53 @@ content: '';
     width: 100%;
     font-size: 0;
     text-align: justify;
-    border: 1px solid red;
+
 }
 .promoBlocks li{
-    width: 40px;
-    text-align: center;
+    width: 220px;
+    text-align: left;
     display: inline-block;
     font-size: 20px;
-    border: 1px solid grey;
-}
 
+}
+.news{
+   margin: 1px;
+
+}
 .promoBlocks ul::after{
     width: 100%;
     content: '';
     display: inline-block;
 
 }
+.list:hover{
+    background-color: #37a14c;
+}
 
+}
+.red{
+    color : red;
+}
+.list{
 
+    display: list-item;
+    font-family: "ArialRegular";
+    font-size: 14px;
+
+}
+.list img{
+    border-top: 1px solid #57e974;
+}
+.list p{
+    color: white;
+    margin: 0px 10px 10px 10px;
+    font-size: 14px;
+}
+.list h4{
+    color: black;
+    font-size: 14px;
+    margin: 10px 10px 0px 10px;
+}
 
 
 /*.promoBlocks{*/
